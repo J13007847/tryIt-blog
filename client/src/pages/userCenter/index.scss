@@ -1,0 +1,31 @@
+.myPosts {
+  .postTypeList {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e3e3e3;
+
+    .typeNameTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .totalNum {
+        font-size: 12px;
+      }
+
+    }
+
+    &:last-child {
+      border-bottom-color: transparent;
+    }
+  }
+
+  .postCard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+
+    .MuiPaper-outlined {
+      width: 200px;
+    }
+  }
+}

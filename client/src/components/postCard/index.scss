@@ -1,0 +1,16 @@
+.postCard {
+  .MuiPaper-root {
+    margin-bottom: 14px;
+    cursor: pointer;
+
+    .MuiCardContent-root {
+      font-weight: bold;
+      color: #1c1c1c;
+      line-height: 24px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+  }
+}

@@ -1,0 +1,164 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.App {
+  .w1122 {
+    width: 1122px;
+    margin: 0 auto;
+  }
+
+  .link {
+    color: var(--base-txt);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+  .logoSite {
+    width: 60px;
+    height: 60px;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pt10 {
+    padding-top: 10px;
+  }
+
+  .pt20 {
+    padding-top: 20px;
+  }
+
+  .pt30 {
+    padding-top: 30px;
+  }
+
+  .pt40 {
+    padding-top: 40px;
+  }
+
+  .p10 {
+    padding: 10px;
+  }
+
+  .p20 {
+    padding: 20px;
+  }
+
+  .emptyTxt {
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .smallIcon {
+    .MuiAvatar-img {
+      width: 70%;
+      height: 70%;
+      object-fit: contain;
+    }
+  }
+}
+
+
+
+.containerBox {
+  height: calc(100% - 80px);
+  overflow-y: auto;
+}
+
+// 登录和注册页
+.infoInput {
+  width: 100%;
+  height: 100%;
+  background-color: var(--base-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .formBox {
+    background-color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 2px 1px 10px var(--base-txt);
+
+    // &::after {
+    //   content: '';
+    //   width: 100%;
+    //   height: 100%;
+    //   position: absolute;
+    //   background-color: aquamarine;
+    //   z-index: -1;
+    //   top: 20px;
+    //   left: -20px;
+    // }
+
+    h3 {
+      width: 100%;
+      text-align: center;
+      color: darkcyan;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .inputTxt {
+      margin-bottom: 20px;
+      width: 400px;
+    }
+
+    .css-7kbcl4-MuiFormLabel-root-MuiInputLabel-root {
+      .MuiFormLabel-asterisk {
+        color: red
+      }
+    }
+
+    .noCount {
+      font-size: 14px;
+      align-self: flex-start;
+      padding-bottom: 20px;
+      color: rgb(25, 25, 25)
+    }
+
+    .submitBtn {
+      width: 300px;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+  }
+}
